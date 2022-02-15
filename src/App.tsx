@@ -4,6 +4,7 @@ import { Usuario } from "./components/Usuario";
 import { TimerPadre } from "./components/TimerPadre";
 
 import { ContadorRed } from "./components/ContadorRed";
+import { Formulario } from "./components/Formulario";
 
 function App() {
   return (
@@ -21,6 +22,18 @@ function App() {
       <hr />
       <h2>UseReducer</h2>
       <ContadorRed />
+
+      <hr />
+      <h2>CustomHooks</h2>
+      <Formulario />
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
 
     </>
   );
